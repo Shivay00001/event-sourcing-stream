@@ -1,0 +1,28 @@
+{
+    "name": "event-sourcing-stream",
+    "version": "1.0.0",
+    "description": "Append-only event log with deterministic replay and projections",
+    "main": "event_sourcing_stream.js",
+    "types": "event_sourcing_stream.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "tsc --noEmit"
+    },
+    "author": "Shivay Singh <shivaysinghrajputofficial@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.3.0",
+        "@types/node": "^20.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Shivay00001/event-sourcing-stream"
+    },
+    "keywords": [
+        "event-sourcing",
+        "event-store",
+        "projections",
+        "cqrs",
+        "typescript"
+    ]
+}
