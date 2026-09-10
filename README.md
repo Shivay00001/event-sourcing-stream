@@ -54,3 +54,8 @@ npx tsc --noEmit
 ## License
 
 MIT
+
+
+## Prerequisites
+- Required environment and dependencies
+
